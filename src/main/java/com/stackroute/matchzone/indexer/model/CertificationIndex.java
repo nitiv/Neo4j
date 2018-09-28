@@ -7,7 +7,7 @@ public class CertificationIndex {
 	private String licenseNumber;
 	private Integer durationFrom;
 	private Integer durationTo;
-	private String certificationURL;
+	//private String certificationURL;
 	public String getProfileId() {
 		return profileId;
 	}
@@ -44,14 +44,14 @@ public class CertificationIndex {
 	public void setDurationTo(Integer durationTo) {
 		this.durationTo = durationTo;
 	}
-	public String getCertificationURL() {
-		return certificationURL;
-	}
-	public void setCertificationURL(String certificationURL) {
-		this.certificationURL = certificationURL;
-	}
+//	public String getCertificationURL() {
+//		return certificationURL;
+//	}
+//	public void setCertificationURL(String certificationURL) {
+//		this.certificationURL = certificationURL;
+//	}
 	public CertificationIndex(String profileId, String certificationName, String certificationAuthority,
-			String licenseNumber, Integer durationFrom, Integer durationTo, String certificationURL) {
+			String licenseNumber, Integer durationFrom, Integer durationTo) {
 		super();
 		this.profileId = profileId;
 		this.certificationName = certificationName;
@@ -59,7 +59,7 @@ public class CertificationIndex {
 		this.licenseNumber = licenseNumber;
 		this.durationFrom = durationFrom;
 		this.durationTo = durationTo;
-		this.certificationURL = certificationURL;
+		//this.certificationURL = certificationURL;
 	}
 	
 
